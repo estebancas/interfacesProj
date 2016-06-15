@@ -1,0 +1,57 @@
+
+<html>
+<head>
+	<title>Proyecto Interfaces</title>
+	<meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="styles/modalstyle.css">
+
+</head>
+<body>
+<br>
+<center><h1>Interfaces</h1></center>
+<br>
+<hr>
+<br>
+<center><input type="text" id="codprodb1" placeholder="codigo">
+<button id="modalOC">...</button>
+<input type="text" id="txtnombre" placeholder="Nombre" disabled="true">
+<input type="text" id="txtprecio" placeholder="Precio" disabled="true">
+<input type="text" id="txtdescuento" placeholder="descuento">
+<input type="text" id="txtcantidadAl" placeholder="cantidad disponible" disabled="true">
+<input type="text" id="textcantidadRe" placeholder="cantidad requerida">
+<input type="text" id="txttotal" placeholder="total" disabled="true">
+<button type="submit" id="addgrilla">♣</button>
+</center>
+
+<div id="myModal" class="modal">
+   <div class="modal-content">
+	<span class="close">x</span>
+	<center>
+	<input type="text" id="codprodb2" placeholder="codigo...">
+	<input type="text" id="nomprodb" placeholder="nombre...">
+	<button type="submit" id="buscar">Buscar</button><br>
+	<table>
+		<thead>
+			<tr>
+				<th>Código</th>
+				<th>Nombre</th>
+				<th>Precio</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>12</td>
+				<td>papa</td>
+				<td>2333</td>
+			</tr>
+		</tbody>
+	</table>
+	</center>
+   </div>
+</div>
+
+</body>
+<script type="text/javascript" src="scripts/modaljs.js"></script>
+
+</html>
